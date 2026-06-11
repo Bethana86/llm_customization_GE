@@ -36,7 +36,26 @@ The Customization Factory simplifies and automates this pipeline:
 
 ---
 
-## 4. Financial Analysis & ROI Projection
+## 4. Key Business Applications
+
+The Customization Factory targets four high-impact corporate application areas:
+
+1.  **Financial Analysis & Auditing (SEC Compliance)**
+    *   *Task*: Analyzing SEC filings (10-K, 10-Q) and earnings call transcripts.
+    *   *Specialized Tune*: Fine-tuned on corporate financial statements to accurately identify debt covenant ratios, lease liability thresholds, and calculate debt-to-equity compliance.
+2.  **Legal Operations & Risk Management (Contracts & NDAs)**
+    *   *Task*: Reviewing supplier agreements and corporate NDAs.
+    *   *Specialized Tune*: Trained to locate unilateral liabilities, non-compete exclusions, indemnification caps, and highlight deviation clauses violating internal legal playbooks.
+3.  **Clinical Medical Scribe Services (Health Systems)**
+    *   *Task*: Synthesizing SOAP summaries from patient-doctor voice consultation transcripts.
+    *   *Specialized Tune*: Specializes in medical entities, diagnostic classification, and drug-to-drug contraindication audits, maintaining HIPAA compliance via integrated masking pipelines.
+4.  **Database Diagnostics & IT Infrastructure Operations**
+    *   *Task*: Automated cloud error diagnostics and log parsing.
+    *   *Specialized Tune*: Tuned on system runtime logs and database schemas to diagnose lock contention warnings, SQL deadlock conditions, and compile actionable troubleshooting scripts.
+
+---
+
+## 5. Financial Analysis & ROI Projection
 
 ### A. Cost Comparison Model (12-Month Projections)
 
@@ -72,7 +91,7 @@ $$\text{ROI} = \frac{\text{Net Savings}}{\text{Implementation Cost}} \times 100 
 
 ---
 
-## 5. Strategic & Operational Benefits
+## 6. Strategic & Operational Benefits
 
 1.  **Accelerated Time-to-Market**: Decreases the ML deployment cycle from **18 days to 4 hours**, enabling teams to ship specialized agents rapidly.
 2.  **Democratized Model Customization**: Allows non-ML developers (e.g. Legal Analysts or Financial Controllers) to configure prompts and trigger tuning jobs safely through the UI.
@@ -81,7 +100,7 @@ $$\text{ROI} = \frac{\text{Net Savings}}{\text{Implementation Cost}} \times 100 
 
 ---
 
-## 6. Risk Management & Regulatory Alignment
+## 7. Risk Management & Regulatory Alignment
 
 | Identified Risk | Impact | Factory Mitigation Strategy |
 | :--- | :--- | :--- |
@@ -92,7 +111,7 @@ $$\text{ROI} = \frac{\text{Net Savings}}{\text{Implementation Cost}} \times 100 
 
 ---
 
-## 7. Implementation Roadmap
+## 8. Implementation Roadmap
 
 ```
 Month 1: Prototype Refinement & API Connections (FastAPI + GCS)
